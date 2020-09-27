@@ -4,7 +4,7 @@ import { AppContext, AppInitialProps, AppProps } from 'next/app';
 import GlobalStyles from '../utils/global-styles';
 import Head from 'next/head';
 
-const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({ Component, pageProps }) => {
+const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({ Component, pageProps }: any) => {
   return (
     <>
       <Head>
