@@ -5,10 +5,7 @@ export default function Home() {
   return (
     <HomeContainer>
       <h1>👋 Chanho`s Boilerplate</h1>
-      <Chanho
-        src="https://avatars2.githubusercontent.com/u/29947014?s=460&u=4749fe67e031e967bb5659895d0dc8e1f9365205&v=4"
-        alt="chanho image"
-      />
+      <Chanho src="/images/chanho.jpeg" alt="chanho image" />
     </HomeContainer>
   );
 }
