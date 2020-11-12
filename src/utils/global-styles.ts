@@ -25,11 +25,11 @@ const GlobalStyles = createGlobalStyle`
   }
   body{
     letter-spacing: -0.025em;
-    overflow-x: hidden;
   }
   html, body, #__next{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
   }
   a {
     color: inherit;
