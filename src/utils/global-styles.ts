@@ -22,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html{
     font-family: sans-serif;
+    font-size: 16px;
   }
   body{
     letter-spacing: -0.025em;
