@@ -23,6 +23,12 @@ const GlobalStyles = createGlobalStyle`
   html{
     font-family: sans-serif;
     font-size: 16px;
+
+    /* Prevent font scaling in landscape */
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none;  /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
   }
   body{
     letter-spacing: -0.025em;
