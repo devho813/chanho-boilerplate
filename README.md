@@ -4,9 +4,9 @@
 - `React (Hook)`
 - `TypeScript`
 - `Next.js`
-- `styled-components`
+- `recoil`
+- `emotion`
 - `ESLint`
 - `Prettier`
-- `Global Styles (styled-reset)`
 - `Media Query`
 - `Bundle Analyzer`
