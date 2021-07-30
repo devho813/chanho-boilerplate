@@ -4,7 +4,6 @@
 - `React (Hook)`
 - `TypeScript`
 - `Next.js`
-- `recoil`
 - `emotion`
 - `ESLint`
 - `Prettier`
