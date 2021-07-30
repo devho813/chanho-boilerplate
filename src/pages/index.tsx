@@ -1,16 +1,16 @@
-import styled from '@emotion/styled'
-import React from 'react';
+import { css } from '@emotion/react'
+import React from 'react'
 
 export default function Home() {
   return (
-    <HomeContainer>
+    <div css={homeContainer}>
       <h1>👋 Chanho`s Boilerplate</h1>
-      <Chanho src="/images/chanho.jpeg" alt="chanho image" />
-    </HomeContainer>
-  );
+      <img css={chanho} src="/assets/chanho.jpeg" alt="chanho" />
+    </div>
+  )
 }
 
-const HomeContainer = styled.div`
+const homeContainer = css`
   margin-top: 15px;
   text-align: center;
 
@@ -18,11 +18,11 @@ const HomeContainer = styled.div`
     color: #f1c40f;
     font-size: 25px;
   }
-`;
+`
 
-const Chanho = styled.img`
+const chanho = css`
   display: inline-block;
   margin-top: 10px;
   width: 100px;
   border-radius: 5px;
-`;
+`
