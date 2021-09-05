@@ -50,9 +50,11 @@ export const GlobalStyles = (
         text-decoration: none;
       }
       input,
-      button {
+      button,
+      textarea {
         font: inherit;
         box-shadow: none;
+        -webkit-appearance: none;
         &:focus,
         &:active {
           outline: none;
